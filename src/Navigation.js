@@ -16,11 +16,14 @@ const Navigation = () => {
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="ml-auto">
             <Nav.Link href="#deets">Home</Nav.Link>
-            <Nav.Link eventKey={2} href="#memes">
-              About
+            <Nav.Link eventKey={2} href="#project">
+              Projects
             </Nav.Link>
-            <Nav.Link eventKey={2} href="#memes">
+            <Nav.Link eventKey={2} href="#contact">
               Contact
+            </Nav.Link>
+            <Nav.Link eventKey={3} href="#memes">
+              Resume
             </Nav.Link>
           </Nav>
         </Navbar.Collapse>
